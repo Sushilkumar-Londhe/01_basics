@@ -3,6 +3,20 @@ let accountEmail = "radhe@google.com"
 var accountPassword = "123456"
 accountCity = "varundavan"
 
-//accountId = 2
+let accountState;
 
-console.log(accountId);
+//accountId = 2 //not allowed
+
+/*
+Perfer not to use var
+beacause of issue in block scope and functional scope
+*/
+
+accountEmail = "rk@rk.com"
+accountPassword = "323232"
+accountCity = "Pune"
+
+// console.log(accountId);
+
+
+console.table([accountId, accountEmail, accountPassword,accountCity, accountState]);
